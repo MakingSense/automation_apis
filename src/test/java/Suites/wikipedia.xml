@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Wikipedia apis testing suite" verbose="1">
+    <test name="Test Suite">
+        <parameter name="URL" value="https://jsonplaceholder.typicode.com/posts"></parameter>
+        <parameter name="singlePost" value="1"></parameter>
+        <classes>
+            <class name="WikipediaTests.BasicTest"></class>
+        </classes>
+    </test>
+</suite>
